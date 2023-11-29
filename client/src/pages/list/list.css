@@ -1,0 +1,111 @@
+/* .react-datepicker {
+  font-family: 'Your Custom Font', sans-serif;
+}
+
+.react-datepicker__input-container {
+  display: block;
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 95%;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+} */
+
+
+.listContainer {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  /* border: 2px solid black; */
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #174675, white);}
+
+.listWrapper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.listSearch {
+  flex: 1;
+  background-color: #dadad9;
+  padding: 20px;
+  border-radius: 20px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.lsTitle{
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.lsItem{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.lsItem>label{
+  font-size: 12px;
+}
+
+
+.lsItem>input{
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.lsItem>span{
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lsOptions{
+  padding: 10px;
+}
+
+.lsOptionItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.lsOptionInput{
+  width: 50px;
+}
+
+.listSearch>button{
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100px;
+}
+
+.listResult {
+  flex: 3;
+}
